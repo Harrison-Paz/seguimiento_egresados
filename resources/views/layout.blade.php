@@ -249,6 +249,7 @@
                             {{--TODO: Agregar convenios--}}
                             {{--TODO: Agregar investigacines--}}
                             {{--TODO: capacitacion profecional--}}
+                        @can('listar-egresados')    
                             <div class="pcoded-navigation-label">Secretaría</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li class="pcoded-hasmenu">
@@ -379,6 +380,8 @@
                                     </a>
                                 </li>
                             </ul>
+                        @endcan
+                        @can('listar-oferta')
                             {{--TODO: Menu de egresados--}}
                             <div class="pcoded-navigation-label">Egresado</div>
                             <ul class="pcoded-item pcoded-left-item">
@@ -390,7 +393,7 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="breadcrumb.html" class="waves-effect waves-dark">
+                                            <a href="{{route('listar-oferta')}}" class="waves-effect waves-dark">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="pcoded-mtext">Listar Ofertas</span>
                                                 <span class="pcoded-mcaret"></span>
@@ -443,6 +446,8 @@
                                     </a>
                                 </li>
                             </ul>
+                        @endcan
+                        @can('listar-usuario')
                             {{--TODO: Menu de Administrador--}}
                             <div class="pcoded-navigation-label">Administración</div>
                             <ul class="pcoded-item pcoded-left-item">
@@ -477,6 +482,7 @@
                                     </ul>
                                 </li>
                             </ul>
+                        @endcan
                         </div>
                     </nav>
                     <div class="pcoded-content">

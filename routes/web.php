@@ -47,6 +47,10 @@ route::get('gestion-usuarios/listar', function () {
     return view('usuario/listar');
 })->name('listar-usuario');
 
+route::get('gestion-ofertas/listar', function () {
+    return view('egresado/listar');
+})->name('listar-oferta');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
