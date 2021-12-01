@@ -23,7 +23,7 @@ route::get('/register', function () {
 });
 
 route::get('/', function(){
-    return view('auth/sign-in');
+    return view('auth/login');
 })->name('sign-in');
 
 //rutas de gestion de egresados
@@ -38,3 +38,7 @@ route::get('gestion-egresados/listar', function () {
 route::get('gestion-egresados/editar', function () {
     return view('secretaria/editar');
 })->name('editar-egresados');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
