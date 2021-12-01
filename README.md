@@ -1,6 +1,4 @@
-Instalación
-
-cd ctrlFood
+### Instalación
 
 composer install
 
