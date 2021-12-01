@@ -39,6 +39,14 @@ route::get('gestion-egresados/editar', function () {
     return view('secretaria/editar');
 })->name('editar-egresados');
 
+route::get('gestion-usuarios/nuevo', function () {
+    return view('usuario/nuevo');
+})->name('agregar-usuario');
+
+route::get('gestion-usuarios/listar', function () {
+    return view('usuario/listar');
+})->name('listar-usuario');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

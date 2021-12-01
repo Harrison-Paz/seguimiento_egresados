@@ -26,6 +26,7 @@
                             <th>Apellidos</th>
                             <th># Promoción</th>
                             <th>Año de egreso</th>
+                            <th>Accion</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -35,6 +36,10 @@
                             <td>Otto</td>
                             <td>XX</td>
                             <td>2020</td>
+                            <td>    
+                                <a href="" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Editar</a>
+                                <a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Eliminar</a>
+                            <td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
@@ -42,6 +47,10 @@
                             <td>Thornton</td>
                             <td>XXI</td>
                             <td>2021</td>
+                            <td>    
+                                <a href="" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Editar</a>
+                                <a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Eliminar</a>
+                            <td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
@@ -49,6 +58,10 @@
                             <td>the Bird</td>
                             <td>XIX</td>
                             <td>2019</td>
+                            <<td>    
+                                <a href="" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Editar</a>
+                                <a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Eliminar</a>
+                            <td>
                         </tr>
                     </tbody>
                 </table>

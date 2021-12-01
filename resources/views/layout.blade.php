@@ -454,7 +454,7 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class="">
-                                            <a href="auth-normal-sign-in.html" class="waves-effect waves-dark">
+                                            <a href="{{route('agregar-usuario')}}" class="waves-effect waves-dark">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="pcoded-mtext">Nuevo</span>
                                                 <span class="pcoded-mcaret"></span>
@@ -468,7 +468,7 @@
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="sample-page.html" class="waves-effect waves-dark">
+                                            <a href="{{route('listar-usuario')}}" class="waves-effect waves-dark">
                                                 <span class="pcoded-micon"><i class="ti-layout-sidebar-left"></i><b>S</b></span>
                                                 <span class="pcoded-mtext">Listar</span>
                                                 <span class="pcoded-mcaret"></span>
