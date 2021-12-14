@@ -54,3 +54,22 @@ route::get('gestion-ofertas/listar', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+
+
+
+
+
+
+
+//rutas de investigaciones:
+route::get('agregar-investigación', function () {
+    return view('investigaciones/nuevo');
+})->name('agregar-investigación');
+
+route::get('gestion-investigación', function () {
+    return view('investigaciones/gestion');
+})->name('gestion-investigación');
+
+
