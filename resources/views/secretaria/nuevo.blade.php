@@ -68,7 +68,8 @@
                 <br>
 
                 <label class="btn btn-outline-success" for="success-outlined">Guardar</label>                
-                <label class="btn btn-outline-danger" for="danger-outlined">Cancelar</label>                    
+                <label class="btn btn-outline-danger" for="danger-outlined">Cancelar</label>
+                                    
             </div>
         </div>
         <!-- Basic Form Inputs card end -->
