@@ -1,5 +1,5 @@
+{{-- Contenido de 'layout' proveniente de otro recurso --}}
 @extends('layout')
-
 @section('content')
      <!-- Hover table card start -->
      <div class="card">
