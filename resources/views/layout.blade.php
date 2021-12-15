@@ -290,7 +290,7 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="{{ route('agregar-egresados')}}" class="waves-effect waves-dark">
+                                            <a href="{{ route('agregar-convenios')}}" class="waves-effect waves-dark">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="pcoded-mtext">Nuevo</span>
                                                 <span class="pcoded-mcaret"></span>
@@ -313,7 +313,7 @@
                                     </a>
                                     <ul class="pcoded-submenu">
                                         <li class=" ">
-                                            <a href="{{ route('agregar-egresados')}}" class="waves-effect waves-dark">
+                                            <a href="{{ route('agregar-convenios')}}" class="waves-effect waves-dark">
                                                 <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                                 <span class="pcoded-mtext">Nuevo</span>
                                                 <span class="pcoded-mcaret"></span>

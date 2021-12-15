@@ -39,7 +39,7 @@
                                 <a href="" class="btn btn-primary btn-sm"><i class="fas fa-download"></i>Descargar</a>
                             </td>
                             <td>    
-                                <a href="" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Editar</a>
+                                <a href="{{route('editar-investigación')}}" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Editar</a>
                                 <a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Eliminar</a>
                             </td>
                         </tr>

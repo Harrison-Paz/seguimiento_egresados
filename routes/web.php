@@ -72,8 +72,20 @@ route::get('gestion-investigación', function () {
     return view('investigaciones/gestion');
 })->name('gestion-investigación');
 
+route::get('editar-investigación', function () {
+    return view('investigaciones/edit');
+})->name('editar-investigación');
 
 //rutas convenios
+route::get('agregar-convenios', function () {
+    return view('convenios/nuevo');
+})->name('agregar-convenios');
+
+
 route::get('gestion-convenios', function () {
-    return view('convenios/gestionar');
+    return view('convenios/gestion');
 })->name('gestion-convenios');
+
+route::get('editar-convenios', function () {
+    return view('convenios/edit');
+})->name('editar-convenios');

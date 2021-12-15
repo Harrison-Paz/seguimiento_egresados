@@ -36,7 +36,7 @@
                             <td>10/11/20</td>
                             <td>Activo</td>
                             <td>    
-                                <a href="" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Cambiar</a>
+                                <a href="{{route('editar-convenios')}}" class="btn btn-info btn-sm"><i class="fas fa-edit"></i>Cambiar</a>
                                 <a href="" class="btn btn-primary btn-sm"><i class="fas fa-eye"></i>Ver</a>
                                 <a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>Eliminar</a>
                             </td>
