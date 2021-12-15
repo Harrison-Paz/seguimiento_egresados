@@ -73,3 +73,7 @@ route::get('gestion-investigación', function () {
 })->name('gestion-investigación');
 
 
+//rutas convenios
+route::get('gestion-convenios', function () {
+    return view('convenios/gestionar');
+})->name('gestion-convenios');
